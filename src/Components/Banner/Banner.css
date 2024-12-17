@@ -1,0 +1,17 @@
+.banner_row{
+    @apply flex justify-between items-center
+}
+.banner_text_col h1{
+    @apply font-Playfair_Display font-bold text-[50px] text-Brand_Color
+
+}
+.banner_text_col h2{
+    @apply font-SUSE font-semibold text-[40px] text-[#ffd700]
+
+}
+.banner_img_col img{
+    @apply w-[420px] h-[410px]
+}
+.banner_text_col p{
+    @apply font-SUSE font-medium text-[25px] text-[#800000]
+}

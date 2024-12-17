@@ -1,0 +1,3 @@
+.about_me_row{
+    @apply flex justify-between items-center
+}

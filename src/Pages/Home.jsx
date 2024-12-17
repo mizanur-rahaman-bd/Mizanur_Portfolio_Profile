@@ -1,8 +1,18 @@
 import React from 'react'
+import Banner from '../Components/Banner/Banner'
+import AboutMe from '../Components/About_Me/AboutMe'
+import MyServices from '../Components/My_Services/MyServices'
+import MySkills from '../Components/My_Skills/MySkills'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    <Banner />
+    <AboutMe />
+    <MyServices />
+    <MySkills />
+    
+    </>
   )
 }
 
