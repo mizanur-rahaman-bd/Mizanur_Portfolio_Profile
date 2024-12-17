@@ -1,0 +1,9 @@
+.navbar_row{
+    @apply p-2 flex justify-between items-center
+}
+.nav_img img{
+    @apply w-[150px] h-[50px] rounded-[10px]
+ }
+.nav_content ul{
+    @apply flex justify-between items-center
+}
