@@ -19,11 +19,11 @@ const NavBar = () => {
                 </div>
                 <div className="nav_content">
                     <ul>
-                        <li><Link to={''}><FaSquareGithub /></Link></li>
-                        <li><Link to={''}><FaSquareFacebook /></Link></li>
-                        <li><Link to={''}><FaLinkedin /></Link></li>
-                        <li><Link to={''}><FaSquareInstagram /></Link></li>
-                        <li><Link to={''}><FaYoutube /></Link></li>
+                        <li><Link to={''}><FaSquareGithub className='w-[65px] h-[50px]' /></Link></li>
+                        <li><Link to={''}><FaSquareFacebook className='w-[65px] h-[50px]' /></Link></li>
+                        <li><Link to={''}><FaLinkedin className='w-[65px] h-[50px]' /></Link></li>
+                        <li><Link to={''}><FaSquareInstagram className='w-[65px] h-[50px]' /></Link></li>
+                        <li><Link to={''}><FaYoutube className='w-[65px] h-[50px]' /></Link></li>
                        
 
                         
