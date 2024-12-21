@@ -4,6 +4,9 @@
 .nav_img img{
     @apply w-[150px] h-[50px] rounded-[10px]
  }
+.nav_content{
+    @apply hidden lg:block
+ }
 .nav_content ul{
     @apply flex justify-between items-center
 }
