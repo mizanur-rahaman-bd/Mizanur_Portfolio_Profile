@@ -9,47 +9,47 @@ import { FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const ResNavbar = () => {
-  const [show, setShow] = useState(false)
+  const [show, setShow] = useState(false);
   return (
     <>
       <section className="resnav">
         <div>
-          <TfiMenuAlt onClick={()=> setShow(!show)} />
+          <TfiMenuAlt
+            onClick={() => setShow(!show)}
+            className="w-[50px] h-[50px] bg-[#0d2238] text-white rounded-[10px] p-[7px]"
+          />
         </div>
-        {
-          show&&
+        {show && (
           <div className="resmenu">
-          <ul>
-            <li>
-              <Link to={"https://github.com/mizanur-rahaman-bd/"}>
-                <FaSquareGithub className="w-[65px] h-[50px]" />
-              </Link>
-            </li>
-            <li>
-              <Link to={"https://www.facebook.com/mizanur.rahaman.aus/"}>
-                <FaSquareFacebook className="w-[65px] h-[50px]" />
-              </Link>
-            </li>
-            <li>
-              <Link to={""}>
-                <FaLinkedin className="w-[65px] h-[50px]" />
-              </Link>
-            </li>
-            <li>
-              <Link to={""}>
-                <FaSquareInstagram className="w-[65px] h-[50px]" />
-              </Link>
-            </li>
-            <li>
-              <Link to={""}>
-                <FaYoutube className="w-[65px] h-[50px]" />
-              </Link>
-            </li>
-          </ul>
-        </div>
-        }
-
-        
+            <ul>
+              <li>
+                <Link to={"https://github.com/mizanur-rahaman-bd/"}>
+                  <FaSquareGithub className="w-[40px] h-[50px]" />
+                </Link>
+              </li>
+              <li>
+                <Link to={"https://www.facebook.com/mizanur.rahaman.aus/"}>
+                  <FaSquareFacebook className="w-[40px] h-[50px]" />
+                </Link>
+              </li>
+              <li>
+                <Link to={""}>
+                  <FaLinkedin className="w-[40px] h-[50px]" />
+                </Link>
+              </li>
+              <li>
+                <Link to={""}>
+                  <FaSquareInstagram className="w-[40px] h-[50px]" />
+                </Link>
+              </li>
+              <li>
+                <Link to={""}>
+                  <FaYoutube className="w-[40px] h-[50px]" />
+                </Link>
+              </li>
+            </ul>
+          </div>
+        )}
       </section>
     </>
   );

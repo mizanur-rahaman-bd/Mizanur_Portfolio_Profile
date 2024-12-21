@@ -1,3 +1,6 @@
 .resnav{
-    @apply lg:hidden
+    @apply lg:hidden relative
+}
+.resmenu{
+    @apply absolute overflow-hidden right-[6px] top-[52px]
 }

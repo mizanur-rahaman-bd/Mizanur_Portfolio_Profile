@@ -1,3 +1,15 @@
+.about_me{
+    @apply px-2 lg:px-0
+}
 .about_me_row{
-    @apply flex justify-between items-center
+    @apply flex flex-wrap justify-between items-center
+}
+.about_me_img_col{
+    @apply m-auto lg:m-0
+}
+.about_me_img_col img{
+    @apply w-[230px] h-[220px] text-center
+}
+.about_me_text_col p{
+    @apply font-SUSE font-normal text-[15px] text-justify px-[20px] 
 }

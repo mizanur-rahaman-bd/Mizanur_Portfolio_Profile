@@ -1,17 +1,17 @@
 .banner_row{
-    @apply flex justify-between items-center
+    @apply flex flex-col-reverse lg:flex-row justify-between items-center px-2 lg:px-0
 }
 .banner_text_col h1{
-    @apply font-Playfair_Display font-bold text-[50px] text-Brand_Color
+    @apply font-Playfair_Display font-bold text-[30px] lg:text-[50px] text-Brand_Color
 
 }
 .banner_text_col h2{
-    @apply font-SUSE font-semibold text-[40px] text-[#ffd700]
+    @apply font-SUSE font-semibold text-[24px] lg:text-[40px] text-[#ffd700]
 
 }
 .banner_img_col img{
-    @apply w-[420px] h-[410px]
+    @apply  w-[230px] lg:w-[420px] h-[250px] lg:h-[410px]
 }
 .banner_text_col p{
-    @apply font-SUSE font-medium text-[25px] text-[#800000]
+    @apply font-SUSE font-medium text-[18px] lg:text-[25px] text-[#800000] text-center lg:text-start
 }
