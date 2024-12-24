@@ -2,5 +2,5 @@
     @apply lg:hidden relative
 }
 .resmenu{
-    @apply absolute overflow-hidden right-[6px] top-[52px]
+    @apply absolute overflow-hidden right-[10px] top-[52px]
 }

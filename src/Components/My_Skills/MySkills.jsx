@@ -11,6 +11,7 @@ const MySkills = () => {
           </div>
           <div className="my_skills_row">
             <div className="my_skills_tech_row">
+              <h3>Hard Skills</h3>
               <ul>
                 <li>
                   <p>HTML, CSS, and JavaScript</p>
@@ -54,6 +55,7 @@ const MySkills = () => {
               </ul>
             </div>
             <div className="my_skills_soft_row">
+              <h3>Soft Skills</h3>
               <ul>
                 <li>
                   <p>Creativity</p>

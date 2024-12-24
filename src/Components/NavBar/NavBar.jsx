@@ -19,11 +19,11 @@ const NavBar = () => {
                 </div>
                 <div className="nav_content">
                     <ul>
-                        <li><Link to={'https://github.com/mizanur-rahaman-bd/'}><FaSquareGithub className='w-[65px] h-[50px]' /></Link></li>
-                        <li><Link to={'https://www.facebook.com/mizanur.rahaman.aus/'}><FaSquareFacebook className='w-[65px] h-[50px]' /></Link></li>
-                        <li><Link to={''}><FaLinkedin className='w-[65px] h-[50px]' /></Link></li>
-                        <li><Link to={''}><FaSquareInstagram className='w-[65px] h-[50px]' /></Link></li>
-                        <li><Link to={''}><FaYoutube className='w-[65px] h-[50px]' /></Link></li>
+                        <li><Link to={'https://github.com/mizanur-rahaman-bd/'}><FaSquareGithub className='w-[65px] h-[50px] text-[#0d2238]' /></Link></li>
+                        <li><Link to={'https://www.facebook.com/mizanur.rahaman.aus/'}><FaSquareFacebook className='w-[65px] h-[50px] text-[#0d2238]' /></Link></li>
+                        <li><Link to={''}><FaLinkedin className='w-[65px] h-[50px] text-[#0d2238]' /></Link></li>
+                        <li><Link to={''}><FaSquareInstagram className='w-[65px] h-[50px] text-[#0d2238]' /></Link></li>
+                        <li><Link to={''}><FaYoutube className='w-[65px] h-[50px] text-[#0d2238]' /></Link></li>
                        
 
                         

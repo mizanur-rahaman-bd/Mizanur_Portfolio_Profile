@@ -1,3 +1,12 @@
 .myservices_row{
     @apply px-2 lg:px-0
 }
+.my_services_single_card img{
+    @apply w-[230px] h-[220px] m-auto
+}
+.my_services_single_card h3{
+    @apply font-Playfair_Display font-medium text-[20px] text-black px-[20px]
+}
+.my_services_single_card p{
+    @apply font-SUSE font-normal text-[15px] text-black px-[20px]
+}

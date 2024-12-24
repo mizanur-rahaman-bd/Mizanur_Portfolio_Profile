@@ -24,27 +24,27 @@ const ResNavbar = () => {
             <ul>
               <li>
                 <Link to={"https://github.com/mizanur-rahaman-bd/"}>
-                  <FaSquareGithub className="w-[40px] h-[50px]" />
+                  <FaSquareGithub className="w-[30px] h-[45px] text-[#0d2238]" />
                 </Link>
               </li>
               <li>
                 <Link to={"https://www.facebook.com/mizanur.rahaman.aus/"}>
-                  <FaSquareFacebook className="w-[40px] h-[50px]" />
+                  <FaSquareFacebook className="w-[30px] h-[45px] text-[#0d2238]" />
                 </Link>
               </li>
               <li>
                 <Link to={""}>
-                  <FaLinkedin className="w-[40px] h-[50px]" />
+                  <FaLinkedin className="w-[30px] h-[45px] text-[#0d2238]" />
                 </Link>
               </li>
               <li>
                 <Link to={""}>
-                  <FaSquareInstagram className="w-[40px] h-[50px]" />
+                  <FaSquareInstagram className="w-[30px] h-[45px] text-[#0d2238]" />
                 </Link>
               </li>
               <li>
                 <Link to={""}>
-                  <FaYoutube className="w-[40px] h-[50px]" />
+                  <FaYoutube className="w-[30px] h-[45px] text-[#0d2238]" />
                 </Link>
               </li>
             </ul>

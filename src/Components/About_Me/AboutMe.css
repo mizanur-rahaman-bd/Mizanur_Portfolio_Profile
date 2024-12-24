@@ -2,14 +2,19 @@
     @apply px-2 lg:px-0
 }
 .about_me_row{
-    @apply flex flex-wrap justify-between items-center
+    @apply flex flex-wrap justify-between items-center m-auto
 }
 .about_me_img_col{
     @apply m-auto lg:m-0
 }
 .about_me_img_col img{
-    @apply w-[230px] h-[220px] text-center
+    @apply w-[290px] md:w-[382px] h-[220px] md:h-[342px] text-center rounded-[20px] ;
+    
+}
+.about_me_text_col{
+    @apply m-auto
 }
 .about_me_text_col p{
-    @apply font-SUSE font-normal text-[15px] text-justify px-[20px] 
+    @apply w-[290px] md:w-[382px] h-[447px] md:h-[342px] mx-auto font-SUSE font-normal text-[15px] text-justify text-[#3b7db8] p-[20px] rounded-[20px] mt-[20px] ;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.45) inset;
 }

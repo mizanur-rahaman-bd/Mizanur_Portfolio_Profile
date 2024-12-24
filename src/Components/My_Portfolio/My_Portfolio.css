@@ -1,0 +1,6 @@
+.my_portfolio{
+    @apply px-[30px] mt-[20px] mb-[30px]
+}
+.slide_div img{
+    @apply w-[150px] h-[120px]
+}

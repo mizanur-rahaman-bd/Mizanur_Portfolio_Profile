@@ -16,20 +16,20 @@ const Footer = () => {
                 <img src="images/text_logo.png" alt="text_logo" />
 
             </div>
-            <div className="nav_content">
+            {/* <div className="footer_nav_content">
                     <ul>
-                        <li><Link to={''}><FaSquareGithub className='w-[65px] h-[50px]' /></Link></li>
-                        <li><Link to={''}><FaSquareFacebook className='w-[65px] h-[50px]' /></Link></li>
-                        <li><Link to={''}><FaLinkedin className='w-[65px] h-[50px]' /></Link></li>
-                        <li><Link to={''}><FaSquareInstagram className='w-[65px] h-[50px]' /></Link></li>
-                        <li><Link to={''}><FaYoutube className='w-[65px] h-[50px]' /></Link></li>
+                        <li><Link to={''}><FaSquareGithub className='w-[30px] h-[25px] lg:w-[65px] lg:h-[50px]' /></Link></li>
+                        <li><Link to={''}><FaSquareFacebook className='w-[30px] h-[25px] lg:w-[65px] lg:h-[50px]' /></Link></li>
+                        <li><Link to={''}><FaLinkedin className='w-[30px] h-[25px] lg:w-[65px] lg:h-[50px]' /></Link></li>
+                        <li><Link to={''}><FaSquareInstagram className='w-[30px] h-[25px] lg:w-[65px] lg:h-[50px]' /></Link></li>
+                        <li><Link to={''}><FaYoutube className='w-[30px] h-[25px] lg:w-[65px] lg:h-[50px]' /></Link></li>
                        
 
                         
 
                     </ul>
 
-                </div>
+                </div> */}
         </div>
 
     </footer>

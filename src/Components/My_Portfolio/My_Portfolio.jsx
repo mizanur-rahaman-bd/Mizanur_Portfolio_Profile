@@ -3,10 +3,10 @@ import "./My_Portfolio.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 
 const My_Portfolio = () => {
-    
-function SampleNextArrow(props) {
+  function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
       <div
@@ -16,7 +16,7 @@ function SampleNextArrow(props) {
       />
     );
   }
-  
+
   function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -28,7 +28,6 @@ function SampleNextArrow(props) {
     );
   }
 
-
   const settings = {
     dots: true,
     infinite: true,
@@ -39,31 +38,38 @@ function SampleNextArrow(props) {
     autoplaySpeed: 2000,
     cssEase: "linear",
     nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
+    prevArrow: <SamplePrevArrow />,
   };
   return (
     <>
       <section className="my_portfolio">
         <div className="container">
-          <div className="slider-container">
+          <div className="slide_div slider-container">
             <Slider {...settings}>
-              <div className="bg-black">
-                <h3>1</h3>
+              <div className="pr-[5px]">
+                <Link to={"https://react-project-eb-tan-cosmetic.vercel.app/"}>
+                  <img src="images/ebtan.png" alt="ebtan" />
+                </Link>
               </div>
-              <div className="bg-slate-600">
-                <h3>2</h3>
+              <div className="pr-[5px]">
+                <Link to={"https://furniture-html-css.vercel.app/"}>
+                  <img src="images/furniture.png" alt="furniture" />
+                </Link>
               </div>
-              <div className="bg-gray-400">
-                <h3>3</h3>
+              <div className="pr-[5px]">
+                <Link to={"https://candied-ice-cream.vercel.app/"}>
+                  <img src="images/icecream.png" alt="icecream" />
+                </Link>
               </div>
-              <div className="bg-zinc-500">
-                <h3>4</h3>
+              <div className="pr-[5px]">
+                <Link to={"https://react-project-product-filter.vercel.app/"}>
+                  <img src="images/productfilter.png" alt="filter" />
+                </Link>
               </div>
-              <div className="bg-neutral-500">
-                <h3>5</h3>
-              </div>
-              <div className="bg-stone-600">
-                <h3>6</h3>
+              <div className="">
+                <Link to={"https://rp-las-les-vpn.vercel.app/"}>
+                  <img src="images/vpn.png" alt="vpn" />
+                </Link>
               </div>
             </Slider>
           </div>
