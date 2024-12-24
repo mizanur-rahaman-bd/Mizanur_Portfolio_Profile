@@ -12,17 +12,7 @@ const AboutMe = () => {
             </div>
             <div className="about_me_text_col">
               <p>
-                My name is Mizanur Rahaman and I am a front-end developer with 3
-                years of experience in creating dynamic and responsive
-                interfaces using the latest technologies and best practices for
-                web applications. As a front-end developer, my role revolves
-                around translating design concepts into interactive and
-                user-friendly websites and applications. I work with
-                technologies like HTML, CSS, and JavaScript along with
-                frameworks and libraries such as React to build the parts of a
-                website that users interact with directly. My goal is to ensure
-                that every user experience is not only functional but also
-                enjoyable and accessible. TO BE UPDATED
+              My name is Mizanur Rahaman, I am working as a front-end developer to  create dynamic and responsive interfaces using the latest technologies and best practices for web applications. As a front-end developer, my role is translating design concepts into interactive and user-friendly websites. I work with technologies like HTML, CSS, and JavaScript along with frameworks and libraries such as React, Tailwind CSS and Bootstrap. I can also add a front end project with the Firebase backend system to make a full stack Website. My goal is to ensure that every user experience is not only functional but also enjoyable and accessible.
               </p>
             </div>
           </div>
