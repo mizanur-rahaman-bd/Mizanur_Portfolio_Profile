@@ -28,13 +28,13 @@ const MyServices = () => {
                 </div>
                 {/* Single Card 4 */}
                 <div className="my_services_single_card">
-                    <img src="images/web_design.jpg" alt="web_design" />
+                    <img src="images/res_img.png" alt="web_design" />
                     <h3>Responsive WebPage Design</h3>
                     <p>As a web developer, my role involves designing, coding, and maintaining websites to ensure they are functional, user-friendly, and visually appealing. I work with various technologies such as HTML, CSS, JavaScript, and renowed frameworks to create seamless and efficient web experiences.</p>
                 </div>
                 {/* Single Card 5 */}
                 <div className="my_services_single_card">
-                    <img src="images/web_design.jpg" alt="web_design" />
+                    <img src="images/b_t.png" alt="web_design" />
                     <h3>Bootstrap and Tailwind CSS</h3>
                     <p>As a web developer, my role involves designing, coding, and maintaining websites to ensure they are functional, user-friendly, and visually appealing. I work with various technologies such as HTML, CSS, JavaScript, and renowed frameworks to create seamless and efficient web experiences.</p>
                 </div>
@@ -56,7 +56,7 @@ const MyServices = () => {
                 {/* Single Card 8 */}
 
                 <div className="my_services_single_card">
-                    <img src="images/single_page_dev.jpg" alt="single_web_page" />
+                    <img src="images/firebase.png" alt="single_web_page" />
                     <h3>FireBase Back End Service</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime debitis accusamus sunt pariatur recusandae hic est autem, voluptate explicabo omnis, corrupti maiores blanditiis. Ullam praesentium, repellat eaque et sit nulla molestias ea odio aut explicabo ratione iusto quasi veritatis accusantium doloremque vitae voluptatem rerum, porro autem sequi aspernatur? Qui.</p>
                 </div>
