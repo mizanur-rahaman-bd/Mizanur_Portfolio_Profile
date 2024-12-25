@@ -6,7 +6,9 @@ const AboutMe = () => {
     <>
       <section className="about_me">
         <div className="container">
+        <h2>About Me</h2>
           <div className="about_me_row">
+           
             <div className="about_me_img_col">
               <img src="images/about_me_photo.jpg" alt="about_Me" />
             </div>

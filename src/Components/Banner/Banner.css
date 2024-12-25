@@ -1,5 +1,5 @@
 .banner{
-    @apply mt-[25px] mb-[50px]
+    @apply mt-[25px] mb-[50px] lg:px-5
 }
 .banner_row{
     @apply flex flex-col-reverse lg:flex-row justify-between items-center px-2 lg:px-0

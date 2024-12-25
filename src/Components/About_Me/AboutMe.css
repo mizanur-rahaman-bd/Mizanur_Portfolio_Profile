@@ -1,20 +1,23 @@
 .about_me{
-    @apply px-2 lg:px-0
+    @apply px-2 lg:px-5 mb-[70px] md:mb-[100px] lg:mb-[115px] xl:mb-[125px]
 }
 .about_me_row{
     @apply flex flex-wrap justify-between items-center m-auto
+}
+.about_me h2{
+    @apply font-Playfair_Display font-semibold text-[20px] md:text-[24px] lg:text-[36px] text-center text-[#00518f] mt-[20px] mb-[30px] md:mt-[25px] md:mb-[35px] lg:mt-[30px] lg:mb-[40px]
 }
 .about_me_img_col{
     @apply m-auto lg:m-0
 }
 .about_me_img_col img{
-    @apply w-[290px] md:w-[382px] h-[220px] md:h-[342px] text-center rounded-[20px] ;
+    @apply w-[290px] md:w-[690px] h-[220px] md:h-[342px] lg:w-[470px] lg:h-[270px] xl:w-[600px] xl:h-[340px] text-center rounded-[20px] ;
     
 }
 .about_me_text_col{
     @apply m-auto
 }
 .about_me_text_col p{
-    @apply w-[290px] md:w-[382px] h-[447px] md:h-[342px] mx-auto font-SUSE font-normal text-[15px] text-justify text-[#3b7db8] p-[20px] rounded-[20px] mt-[20px] ;
+    @apply w-[290px] md:w-[690px] h-[447px] md:h-[205px] lg:w-[470px] lg:h-[270px] xl:w-[600px] xl:h-[340px] mx-auto font-SUSE font-normal text-[15px] xl:text-[19px] text-justify text-[#3b7db8] p-[20px] rounded-[20px] mt-[20px] lg:mt-0 ;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.45) inset;
 }

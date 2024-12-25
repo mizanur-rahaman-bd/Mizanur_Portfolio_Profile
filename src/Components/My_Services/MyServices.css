@@ -1,12 +1,17 @@
+.myservices h2{
+    @apply font-Playfair_Display font-semibold text-[20px] md:text-[24px] lg:text-[36px] text-center text-[#00518f] mt-[20px] mb-[30px] md:mt-[25px] md:mb-[35px] lg:mt-[30px] lg:mb-[40px]
+}
 .myservices_row{
-    @apply px-2 lg:px-0
+    @apply px-2 lg:px-5 flex flex-wrap gap-[20px]
 }
 .my_services_single_card img{
     @apply w-[230px] h-[220px] m-auto
 }
 .my_services_single_card h3{
-    @apply font-Playfair_Display font-medium text-[20px] text-black px-[20px]
+    @apply my-[20px] font-Playfair_Display font-medium text-[20px] px-[20px]  text-[#00518f] p-[20px] rounded-[20px];
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.45) inset;
 }
 .my_services_single_card p{
-    @apply font-SUSE font-normal text-[15px] text-black px-[20px]
+    @apply font-SUSE font-normal text-[15px] text-justify text-[#3b7db8] p-[20px] rounded-[20px];
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.45) inset;
 }
