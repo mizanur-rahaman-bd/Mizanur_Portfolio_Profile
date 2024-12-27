@@ -8,10 +8,13 @@
     @apply w-[230px] h-[220px] m-auto rounded-[20px]
 }
 .my_services_single_card h3{
-    @apply my-[20px] w-[230px] h-auto  font-Playfair_Display font-medium text-[20px] px-[20px]  text-[#00518f] p-[20px] rounded-[20px];
+    @apply my-[20px] w-[230px] h-auto  font-Playfair_Display font-medium text-[20px] px-[20px]  text-[#00518f] p-[20px] rounded-[20px] relative;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.45) inset;
 }
+.my_services_single_card h3 span{
+    @apply absolute left-[20px] bottom-[5px] font-SUSE font-normal text-black text-[15px]
+}
 .my_services_single_card p{
-    @apply w-[230px] h-auto font-SUSE font-normal text-[15px] text-justify text-[#3b7db8] p-[20px] rounded-[20px];
+    @apply w-[230px] h-auto font-SUSE font-normal text-[15px] text-justify text-[#3b7db8] bg-[#000] p-[20px] rounded-[20px] absolute;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.45) inset;
 }
