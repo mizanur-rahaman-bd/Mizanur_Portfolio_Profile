@@ -1,6 +1,9 @@
 .my_portfolio{
-    @apply px-[30px] mt-[20px] mb-[30px]
+    @apply px-[30px] mt-[70px] mb-[70px] md:mt-[80px] md:mb-[80px] lg:mt-[90px] lg:mb-[90px] xl:mt-[100px] xl:mb-[100px]
+}
+.my_portfolio h2{
+    @apply font-Playfair_Display font-semibold text-[20px] md:text-[24px] lg:text-[36px] text-center text-[#00518f] mt-[20px] mb-[30px] md:mt-[25px] md:mb-[35px] lg:mt-[30px] lg:mb-[40px];
 }
 .slide_div img{
-    @apply w-[150px] h-[120px]
+    @apply w-[150px] h-[120px] md:w-[170px] md:h-[205px] lg:w-[260px] lg:h-[330px]
 }

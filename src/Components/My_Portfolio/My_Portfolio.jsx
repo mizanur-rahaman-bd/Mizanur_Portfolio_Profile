@@ -11,7 +11,7 @@ const My_Portfolio = () => {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "red" }}
+        style={{ ...style, display: "block", background: "#0d2238" }}
         onClick={onClick}
       />
     );
@@ -22,7 +22,7 @@ const My_Portfolio = () => {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "green" }}
+        style={{ ...style, display: "block", background: "#0d2238" }}
         onClick={onClick}
       />
     );
@@ -44,6 +44,7 @@ const My_Portfolio = () => {
     <>
       <section className="my_portfolio">
         <div className="container">
+        <h2>My Portfolio</h2>
           <div className="slide_div slider-container">
             <Slider {...settings}>
               <div className="pr-[5px]">

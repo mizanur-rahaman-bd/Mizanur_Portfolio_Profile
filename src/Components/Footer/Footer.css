@@ -1,3 +1,6 @@
+.footer{
+    @apply bg-[#0d2238]
+}
 .footer_logo img{
     @apply w-full lg:w-[400px] h-[170px] m-auto
 }

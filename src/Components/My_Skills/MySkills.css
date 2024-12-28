@@ -1,24 +1,36 @@
-.my_skills_row{
-    @apply flex flex-wrap justify-between
+.my_skills{
+  @apply px-[10px] 
 }
-.heading h2{
-    @apply font-Playfair_Display font-medium text-[24px] text-center text-black
+.my_skills_row {
+  @apply flex flex-wrap justify-between md:justify-evenly;
 }
-.my_skills_tech_row h3{
-    @apply font-Playfair_Display font-medium text-[20px] text-start text-black px-[25px]
+.heading h2 {
+  @apply font-Playfair_Display font-semibold text-[20px] md:text-[24px] lg:text-[36px] text-center text-[#00518f] mt-[20px] mb-[30px] md:mt-[25px] md:mb-[35px] lg:mt-[30px] lg:mb-[40px];
 }
-.my_skills_tech_row ul li p{
-    @apply font-SUSE font-normal text-[15px] text-black
+.my_skills_tech_row h3 {
+  @apply font-Playfair_Display font-medium text-center mb-[30px] text-[20px] lg:text-[23px] bg-gray-700 text-[#fff] px-[25px] pb-[30px];
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
 }
-.my_skills_tech_row ul li{
-    @apply px-[10px]
+.my_skills_tech_row ul{
+  @apply flex flex-col gap-[20px]
 }
-.my_skills_soft_row h3{
-    @apply font-Playfair_Display font-medium text-[20px] text-start text-black px-[25px]
+.my_skills_tech_row ul li p {
+  @apply font-SUSE font-normal text-[15px] lg:text-[18px] text-[#fff];
 }
-.my_skills_soft_row ul li p{
-    @apply font-SUSE font-normal text-[15px] text-black
+.my_skills_tech_row ul li {
+  @apply w-[300px] lg:w-[450px] p-[10px] rounded-[10px] bg-[#0d2238] ;
+  
 }
-.my_skills_soft_row ul li{
-    @apply px-[10px]
+.my_skills_soft_row h3 {
+  @apply font-Playfair_Display font-medium text-center mb-[30px] text-[20px] lg:text-[23px] bg-gray-700 text-[#fff] px-[25px] pb-[30px] mt-[30px] md:mt-0;
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+.my_skills_soft_row ul{
+  @apply flex flex-col gap-[20px]
+}
+.my_skills_soft_row ul li p {
+  @apply font-SUSE font-normal text-[15px] lg:text-[18px] text-[#fff];
+}
+.my_skills_soft_row ul li {
+  @apply w-[300px] lg:w-[450px] p-[10px] rounded-[10px] bg-[#0d2238];
 }
