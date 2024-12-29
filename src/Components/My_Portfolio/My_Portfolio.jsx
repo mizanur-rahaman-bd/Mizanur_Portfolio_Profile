@@ -33,7 +33,7 @@ const My_Portfolio = () => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
@@ -44,7 +44,7 @@ const My_Portfolio = () => {
     <>
       <section className="my_portfolio">
         <div className="container">
-        <h2>My Portfolio</h2>
+          <h2>My Portfolio</h2>
           <div className="slide_div slider-container">
             <Slider {...settings}>
               <div className="pr-[5px]">
