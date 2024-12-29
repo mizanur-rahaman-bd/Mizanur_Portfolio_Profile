@@ -2,7 +2,7 @@
     @apply bg-[#0d2238]
 }
 .footer_logo img{
-    @apply w-full lg:w-[400px] h-[170px] m-auto
+    @apply w-[300px] lg:w-[400px] h-[200px] m-auto
 }
 .footer_nav_content ul{
     @apply flex flex-wrap
