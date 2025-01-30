@@ -74,7 +74,7 @@ const My_Portfolio = () => {
               </div>
               <div className="">
                 <Link to={"https://react-tailwind-project-yellow-kitchen.vercel.app/"}>
-                  <img src="images/Yello_kitchen_banner.png" alt="vpn" />
+                  <img src="images/Yello_kitchen_bannner.png" alt="vpn" />
                 </Link>
               </div>
             </Slider>
