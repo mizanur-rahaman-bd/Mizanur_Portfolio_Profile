@@ -72,9 +72,22 @@ const My_Portfolio = () => {
                   <img src="images/vpn.png" alt="vpn" />
                 </Link>
               </div>
-              <div className="">
-                <Link to={"https://react-tailwind-project-yellow-kitchen.vercel.app/"}>
+              <div className="pr-[5px]">
+                <Link
+                  to={
+                    "https://react-tailwind-project-yellow-kitchen.vercel.app/"
+                  }
+                >
                   <img src="images/Yello_kitchen_bannner.png" alt="vpn" />
+                </Link>
+              </div>
+              <div className="">
+                <Link
+                  to={
+                    "https://react-tailwind-project-hosting-company.vercel.app/"
+                  }
+                >
+                  <img src="images/hosting_company.png" alt="hosting" />
                 </Link>
               </div>
             </Slider>
