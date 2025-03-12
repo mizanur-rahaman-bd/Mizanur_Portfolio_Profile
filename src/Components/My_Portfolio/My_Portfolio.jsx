@@ -81,6 +81,11 @@ const My_Portfolio = () => {
                   <img src="images/Yello_kitchen_bannner.png" alt="vpn" />
                 </Link>
               </div>
+              <div className="pr-[5px]">
+                <Link to={"https://react-project-counter.vercel.app/"}>
+                  <img src="images/img_count.png" alt="count" />
+                </Link>
+              </div>
               <div className="">
                 <Link
                   to={
